@@ -17,12 +17,11 @@ export default {
 };
 </script>
 
-<style>
+<style scope>
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
-  border: 1px solid red;
 }
 </style>

@@ -1,15 +1,17 @@
 <template>
   <div class="container">
     <Header title="Task Tracker" />
+    <Tasks :tasks="tasks" />
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
+import Tasks from './components/Tasks';
 
 export default {
   name: 'App',
-  components: { Header },
+  components: { Header, Tasks },
   data() {
     return {
       tasks: []
